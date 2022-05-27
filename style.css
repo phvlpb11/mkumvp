@@ -1,57 +1,75 @@
-*{
+* {
     background-color: #317773;
     color: #E2D1F9;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.gallery{
+
+.gallery {
     background-color: #dbddf1;
     padding: 80px 0;
 }
 
-.gallery img{
+.gallery img {
     background-color: #ffffff;
     padding: 15px;
     width: 100%;
-    box-shadow: 0 0 15px rgba(®,0,0,0.3);
-    cursor: pointer ;
+    box-shadow: 0 0 15px rgba(®, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 body {
-    background-color:  #E2D1F9;
-  }
-
-.container{
-    background-color: #317773 ;
-    color: #E2D1F9;
+    background-color: #E2D1F9;
 }
 
-.ml-3{
-    color: #E2D1F9;
-}
-.sm{
+.container {
+    background-color: #317773;
     color: #E2D1F9;
 }
 
-p{
-    color: #E2D1F9;
-}
-.text-sm{
-    color: #E2D1F9;
-}
-#ContactUs{
+.ml-3 {
     color: #E2D1F9;
 }
 
-#AboutUs{
+.sm {
     color: #E2D1F9;
 }
 
-#img1{
-width: auto;
-height: 500px;
-display: block;  
-margin-left: auto;  
-margin-right: auto;  
+p {
+    color: #E2D1F9;
+}
+
+.text-sm {
+    color: #E2D1F9;
+}
+
+.container {
+    color: #E2D1F9;
+}
+
+#img1 {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
